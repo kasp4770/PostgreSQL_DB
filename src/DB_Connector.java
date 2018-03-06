@@ -3,11 +3,11 @@ import java.sql.*;
 public class DB_Connector {
 
     // PostgreSQL JDBC Driver
-    private static String url = "jdbc:postgresql://localhost:5432/MyDatabase";
+    private static String url = "jdbc:postgresql://localhost:5432/Test";
     // user name
     private static String user = "postgres";
     // pass word
-    private static String pass = "030493";
+    private static String pass = "";
     private static Connection conn = null;
 
     public static Connection connect(){
